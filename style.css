@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;600&family=Roboto+Condensed:ital@1&family=Roboto:wght@400;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.box{
+    width: 600px;
+    height: 300px;
+    border: 5px solid #1A8CD8;
+    margin: 100px auto;
+    position: relative;
+
+}
+.box h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5px;
+}
+.box blockquote{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box span{
+  position: relative;
+  left: 400px;
+ top: 60px;
+    
+}
+.btn{
+  position: absolute;
+  bottom: 15px;
+  left: 170px;
+    margin-top: 120px;
+    justify-content: center;
+ 
+}
+
+
+.btn button{
+ padding: 10px 25px;
+ 
+ border-radius: 20px;
+}
+.btn button i {
+    color: #1A8CD8 ;
+}
+.btn button:nth-child(1){
+
+    background-color: #1A8CD8;
+    color: #fff;
+    border: none;
+}
+.btn button:nth-child(2){
+  margin-left: 25px;
+   border: 2px solid  #1A8CD8
+}
+
